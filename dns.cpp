@@ -54,7 +54,6 @@ string ip(string domain)
         if (word == temp)
         {
             obj >> found;
-            //cout << "IP address of '"<<temp<<"' = " << found << endl;
             return found;
         }
     }
